@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
 header{
   width:100%;
   background-color: #FFFFFF;
@@ -6,41 +13,80 @@ header{
   left: 0;
   position: fixed;
   height:10%;
-  z-index: 20;
+  z-index: 200;
+
 }
 
 
-header nav ul li{
-  display: inline-block;
-}
-header nav ul li:hover{
-  color: red;
+
+
+header h1{
+  padding: 1%;
+  color: #008282;
+  margin-left: 10%;
+
 }
 
-h3{
+header img{
+  padding: 1%;
+  margin-left: 10%;
+  height: 70%;
+
+}
+
+
+.attention-grabber {
+  width: 70%;
+  /*background-color:grey ;*/
+  border: 1px dotted black;
+  height: 25em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+
+}
+
+.attention-grabber h1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  font-size: 120px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #008282;
   text-align: center;
-  margin-top:-30px;
+
+
 }
 
-main{
-  border:1px solid;
-  width: 100%;
-  height:40%;
-  margin-top: 7%;
-  left: 0%;
+.attention-grabber p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #008282;
+  text-align: center;
+
+
 }
 
-footer{
-  bottom:0;
-  left:0;
+.attention-keeper {
   width: 100%;
+  height: 70%;
   position: absolute;
-  background-color: black;
-  height:5%;
-
+  margin-top: 10%;
+  background-color: #068D9D;
+  margin-left: auto;
+  margin-right: auto;
 }
-footer #cred{
-  text-align: center;
-  margin-top:0.5%;
-  color:white;
+
+.box-container-one {
+  width: 70%;
+  height: 500px;
+  border: 1px dotted black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
 }
