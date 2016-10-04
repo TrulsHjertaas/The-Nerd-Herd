@@ -1,11 +1,15 @@
 header{
   width:100%;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   top:0;
   left: 0;
-  position: absolute;
+  position: fixed;
   height:10%;
   background-color: grey;
+  z-index: 20;
 }
+
 
 header nav ul li{
   display: inline-block;
@@ -41,4 +45,3 @@ footer #cred{
   margin-top:0.5%;
   color:white;
 }
-
