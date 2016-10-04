@@ -1,92 +1,94 @@
+/*Dette er en CSS-reset, google it*/
+
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 
+/*Øverste boks som inneholder logo og følger brukeren ned på siden*/
 
-header{
-  width:100%;
-  background-color: #FFFFFF;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-  top:0;
-  left: 0;
-  position: fixed;
-  height:10%;
-  z-index: 200;
-
+header {
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 10%;
+    z-index: 200;
 }
 
 
+/*Selvforklarende*/
 
-
-header h1{
-  padding: 1%;
-  color: #008282;
-  margin-left: 10%;
-
-}
-
-header img{
-  padding: 1%;
-  margin-left: 10%;
-  height: 70%;
-
+header h1 {
+    padding: 1%;
+    color: #008282;
+    margin-left: 10%;
 }
 
 
+/*Selvforklarende */
+
+header img {
+    padding: 1%;
+    margin-left: 10%;
+    height: 70%;
+}
+
+
+/*Den er dotted fordi man skal se border mens man arbeider, border skal vekk*/
 .attention-grabber {
-  width: 70%;
-  /*background-color:grey ;*/
-  border: 1px dotted black;
-  height: 25em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 8%;
-
+    width: 70%;
+    /*background-color:grey ;*/
+    border: 1px dotted black;
+    height: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
 }
 
+
+/*Farge skal endres til den riktige*/
 .attention-grabber h1 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1%;
-  font-size: 120px;
-  font-family: sans-serif;
-  font-weight: lighter;
-  color: #008282;
-  text-align: center;
-
-
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    font-size: 120px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #008282;
+    text-align: center;
 }
 
 .attention-grabber p {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1%;
-  font-size: 40px;
-  font-family: sans-serif;
-  font-weight: lighter;
-  color: #008282;
-  text-align: center;
-
-
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #008282;
+    text-align: center;
 }
 
 .attention-keeper {
-  width: 100%;
-  height: 70%;
-  position: absolute;
-  margin-top: 10%;
-  background-color: #068D9D;
-  margin-left: auto;
-  margin-right: auto;
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    margin-top: 10%;
+    background-color: #068D9D;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/*Den er dotted fordi man skal se border mens man arbeider, border skal vekk*/
 .box-container-one {
-  width: 70%;
-  height: 500px;
-  border: 1px dotted black;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50%;
+    width: 70%;
+    height: 500px;
+    border: 1px dotted black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
 }
