@@ -15,34 +15,27 @@ header {
     top: 0;
     left: 0;
     position: fixed;
-    height: 10%;
+    height: 4em;
     z-index: 200;
 }
 
 
-/*Selvforklarende*/
-
-header h1 {
-    padding: 1%;
-    color: #008282;
-    margin-left: 10%;
-}
 
 
 /*Selvforklarende */
 
 header img {
-    padding: 1%;
-    margin-left: 10%;
-    height: 70%;
+    padding: 0.5em;
+    margin-left: 7em;
+    height: 3em;
 }
 
 
 /*Den er dotted fordi man skal se border mens man arbeider, border skal vekk*/
 .attention-grabber {
-    width: 50em; /*kanskje vi bør bruke em slik at siden kan bli zoomet ut*/
-    /*background-color:grey ;*/
-    border: 1px dotted black;
+    width: 50em;
+    background-color:grey ;
+    /*border: 1px dotted black;*/
     height: 25em;
     margin-left: auto;
     margin-right: auto;
@@ -58,8 +51,20 @@ header img {
     font-size: 120px;
     font-family: sans-serif;
     font-weight: lighter;
-    color: #008282;
+    color: #008282; /*0570CB*/
     text-align: center;
+
+  }
+
+.attention-grabber h1 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        font-size: 120px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        color: #008282; /*0570CB*/
+        text-align: center;
 }
 
 .attention-grabber p {
@@ -81,6 +86,13 @@ header img {
     background-color: #068D9D;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*Call to Action*/
+.cta-contact {
+  background-color: red;
+  height: 5em;
+  width: 50em;
 }
 
 /*Den er dotted fordi man skal se border mens man arbeider, border skal vekk*/
