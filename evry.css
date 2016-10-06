@@ -251,7 +251,7 @@ header img {
 .box-container-two {
     height: 46em;
     width: 65em;
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     margin-left: auto;
     margin-right: auto;
     margin-top: 10em;
