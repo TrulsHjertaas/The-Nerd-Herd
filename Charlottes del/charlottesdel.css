@@ -19,13 +19,15 @@ h3{
   background-color: #707772;
   height:50%;
   padding-bottom: 4%;
-  padding-top: 1%;
+  padding-top: 2%;
 }
-/* her skal det være en handlingsknapp, nå er det bare tekst som ligger her */
-#knapp{
+
+/* tolker det som at det er mail, så her har jeg laget det */
+#mailfelt{
+  padding-bottom:5%;
+}
+#mailknapp{
   text-align: center;
-  padding-bottom: 5%;
-  color:white;
 }
 
 /* her er tekstboksene sin bredde, farge etc*/
