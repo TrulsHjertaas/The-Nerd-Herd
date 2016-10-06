@@ -29,6 +29,15 @@ h3{
 #mailknapp{
   text-align: center;
 }
+/* om knappen skal være 100% lik som wireframe'n så fjerner vi kommentarene rundt 'btnEpost'*/
+/*
+#btnEpost{
+  width: 40%;
+  padding: 1%;
+  border-radius: 0%;
+  background-color: white;
+} 
+*/
 
 /* her er tekstboksene sin bredde, farge etc*/
 .boks{
