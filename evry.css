@@ -251,14 +251,14 @@ header img {
 .box-container-two {
     height: 46em;
     width: 65em;
-    /*border: 1px dotted black;*/
+    border: 1px dotted black;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10em;
 }
 
 
-.box-container-two {
+.box-container-three {
     height: 20em;
     width: 65em;
     /*border: 1px dotted black;*/
@@ -267,7 +267,7 @@ header img {
     margin-top: 5em;
 }
 
-.upperbox2 {
+.upperbox3 {
     height: 18em;
     width: 65em;
     border-top: 1px solid black;
