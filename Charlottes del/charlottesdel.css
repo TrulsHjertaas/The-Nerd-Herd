@@ -112,8 +112,14 @@ footer{
 }
 
 /* krediteringen i footer'ens posisjon og farge */
-footer #cred{
+.cred{
   color:white;
   text-align: center;
-  margin-top:5px;
+  margin-top:1%;
 }
+.linker{
+  text-decoration: none;
+  color:white;
+  padding: 2.5%;
+}
+
