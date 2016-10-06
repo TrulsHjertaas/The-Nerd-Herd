@@ -1,0 +1,108 @@
+/* teksten øverst -> over her skal det Z&T har laget være*/
+h3{
+  text-align: center;
+}
+
+/* den bakerste boksen */
+#fargebakerst{
+  width:101.22%;
+  margin-top:10%;
+  margin-left:-0.61%;
+  background-color:#5B635D;
+  height:70%;
+}
+
+/* den nest bakerste boksen/"midtboksen" */
+#fargebakboks{
+  width:60%;
+  margin-left:20%;
+  background-color: #707772;
+  height:50%;
+  padding-bottom: 4%;
+  padding-top: 1%;
+}
+/* her skal det være en handlingsknapp, nå er det bare tekst som ligger her */
+#knapp{
+  text-align: center;
+  padding-bottom: 5%;
+  color:white;
+}
+
+/* her er tekstboksene sin bredde, farge etc*/
+.boks{
+  width:44%;
+  border:0px solid;
+  background-color: #A0AAA2;
+  padding:1%;
+  text-align:center;
+}
+
+/* hvor mye de venstre tekstboksene faktisk skal ligge til venstre */
+.venstre{
+  margin-left: 0%;
+  overflow: hidden;
+}
+
+/*hvor mye de høyre tekstboksene faktisk skal ligge til høyre */
+.hoyre{
+  margin-left:54%;
+  overflow: hidden;
+}
+
+/* hvor mye tekstboks #1 = mer info, skal ligge mot toppen */
+.en{
+  margin-top: 0%;
+}
+
+/* hvor mye tekstboks #2 = EVRY, skal ligge mot toppen */
+.to{
+  margin-top: -21.7%;
+}
+
+/* hvor mye tekstboks #3 = Drift og Service, skal ligge mot toppen */
+.tre{
+  margin-top: -10%;
+}
+
+/* hvor mye tekstboks #4 = AppDev, skal ligge mot toppen */
+.fire{
+  margin-top: -12%;
+}
+
+/* hvor mye tekstboks #5 = mld & varsel, skal ligge mot toppen */
+.fem{
+  margin-top: 2%;
+}
+
+/* hvor mye tekstboks #6 = legal, skal ligge mot toppen */
+.seks{
+  margin-top: -17%;
+}
+
+/* overskriftene i tekstboksene skal være sentrert */
+h6{
+  text-align: center;
+}
+
+/* teksten i tekstboksene skal være sentrert */
+.infotekst{
+  text-align: center;
+}
+
+/* footer'ens farge, bredde, posisjon etc */
+footer{
+  width:100%;
+  left:0;
+  position:absolute;
+  margin:0 auto;
+  background-color: #A0AAA2;
+  height:4%;
+  border-top:1px solid;
+}
+
+/* krediteringen i footer'ens posisjon og farge */
+footer #cred{
+  color:white;
+  text-align: center;
+  margin-top:5px;
+}
