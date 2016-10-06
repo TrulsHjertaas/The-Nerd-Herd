@@ -256,3 +256,77 @@ header img {
     margin-right: auto;
     margin-top: 10em;
 }
+
+
+.box-container-two {
+    height: 20em;
+    width: 65em;
+    /*border: 1px dotted black;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+}
+
+.upperbox2 {
+    height: 18em;
+    width: 65em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 3em;
+}
+.info-box {
+    height: 18em;
+    width: 18em;
+    /*border-bottom: 1px solid black;*/
+    font-family: sans-serif;
+
+}
+.evry-box {
+    height: 18em;
+    width: 18em;
+    /*border-bottom: 1px solid black;*/
+    font-family: sans-serif;
+}
+
+.appdev-box {
+    height: 18em;
+    width: 18em;
+    /*border-bottom: 1px solid black;*/
+    font-family: sans-serif;
+}
+/*.legal-box {
+    height: 18em;
+    width: 18em;
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+}*/
+
+
+/* footer'ens farge, bredde, posisjon etc */
+footer{
+  width:100%;
+  left:0;
+  position:absolute;
+  margin:0 auto;
+  background-color: #00B5DE;
+  height:auto;
+  border-top:1px solid;
+}
+
+/* krediteringen i footer'ens posisjon og farge */
+.cred{
+  color:white;
+  text-align: center;
+  margin-top:1%;
+  padding-bottom: 0.5em;
+  font-family: sans-serif;
+}
+.linker{
+  text-decoration: none;
+  color:white;
+}
+
