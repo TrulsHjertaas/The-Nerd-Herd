@@ -286,7 +286,14 @@ header img {
     width: 18em;
     /*border-bottom: 1px solid black;*/
     font-family: sans-serif;
-
+}
+#infoMail{
+  color:black;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+#infoMail:hover{
+  color:grey;
 }
 .evry-box {
     height: 18em;
