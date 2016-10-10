@@ -172,6 +172,7 @@ header img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 42em;
+    font-family: 'Source Sans Pro', sans-serif;
     /*display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -184,32 +185,29 @@ header img {
 .upperbox {
     height: 18em;
     width: 65em;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .challenge-box {
     height: 18em;
     width: 18em;
     /*border-bottom: 1px solid black;*/
-    font-family: sans-serif;
 }
 
 .capable-box {
     height: 18em;
     width: 18em;
     /*border-bottom: 1px solid black;*/
-    font-family: sans-serif;
 }
 
 .result-box {
     height: 18em;
     width: 18em;
     /*border-bottom: 1px solid black;*/
-    font-family: sans-serif;
 }
 
 
@@ -218,7 +216,7 @@ header img {
 .downbox {
     height: 18em;
     width: 65em;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     margin-top: 10em;
     display: flex;
     flex-direction: row;
@@ -231,7 +229,6 @@ header img {
     width: 18em;
     /*border-bottom: 1px solid black;*/
     margin-left: 9em;
-    font-family: sans-serif;
 }
 
 .service-box {
@@ -239,7 +236,6 @@ header img {
     width: 18em;
     /*border-bottom: 1px solid black;*/
     margin-right: 9em;
-    font-family: sans-serif;
 }
 
 
