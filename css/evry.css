@@ -337,13 +337,39 @@ header img {
     font-family: sans-serif;
 }*/
 
+/* kontaktskjema (ikke ferdig) */
+.upperbox4{
+  margin-top:-5em;
+  border:1px dotted;
+  margin-left: 23em;
+  width:20em;
+}
+#headline{
+  text-align: center;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+}
+#listee input{
+  display:block;
+  margin-left: 8.5em;
+  text-align: center;
+}
+#question{
+  width:11.4em;
+  height:10em;
+}
+#kontakt{
+  width:11.8em;
+}
 
-/* footer'ens farge, bredde, posisjon etc */
+
+/* footer'ens farge, bredde, posisjon etc (ikke ferdig) */
 footer{
   width:100%;
   left:0;
   position:absolute;
-  margin:0 auto;
+  margin-top: 5em;
+  margin-bottom:0 auto;
   background-color: #00B5DE;
   height:auto;
   border-top:1px solid;
