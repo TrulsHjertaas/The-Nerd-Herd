@@ -198,6 +198,10 @@ header img {
     /*border-bottom: 1px solid black;*/
 }
 
+.challenge-box h3 {
+  color: #063954;
+}
+
 .capable-box {
     height: 18em;
     width: 18em;
