@@ -173,10 +173,6 @@ header img {
     margin-right: auto;
     margin-top: 42em;
     font-family: 'Source Sans Pro', sans-serif;
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;*/
 }
 
 
@@ -185,7 +181,7 @@ header img {
 .upperbox {
     height: 18em;
     width: 65em;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -195,33 +191,63 @@ header img {
 .challenge-box {
     height: 18em;
     width: 18em;
+    line-height: 1.5em;
     /*border-bottom: 1px solid black;*/
 }
 
 .challenge-box h3 {
-  color: #063954;
+  color: #00B5DE;
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .capable-box {
     height: 18em;
     width: 18em;
+    text-align: center;
+    line-height: 1.5em;
     /*border-bottom: 1px solid black;*/
+}
+
+.capable-box h3 {
+  color: #00B5DE;
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .result-box {
     height: 18em;
     width: 18em;
+    line-height: 1.5em;
     /*border-bottom: 1px solid black;*/
 }
 
+.result-box h3 {
+  color: #00B5DE;
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Linjen som skiller infoboksene */
+#line-gradient2 {
+  width: 65em;
+  height: 0.2em;
+  background: linear-gradient(to right, #063954, white, #063954 );
+  z-index: 500;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+}
 
 /* Den nedre boksen som inneholder 2 mindre bokser*/
-
 .downbox {
     height: 18em;
     width: 65em;
-    border: 1px solid black;
-    margin-top: 10em;
+    /*border: 1px solid black;*/
+    margin-top: 5em;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -233,6 +259,15 @@ header img {
     width: 18em;
     /*border-bottom: 1px solid black;*/
     margin-left: 9em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.message-box h3 {
+  color: #00B5DE;
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .service-box {
@@ -240,10 +275,18 @@ header img {
     width: 18em;
     /*border-bottom: 1px solid black;*/
     margin-right: 9em;
+    text-align: center;
+    line-height: 1.5em;
 }
 
+.service-box h3 {
+  color: #00B5DE;
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 1.5em;
+}
 
-/* Her slutter infoboksene, neste som kommer er*/
+/* Her slutter infoboksene */
 
 
 /* Her kommer statistikk boksen*/
@@ -254,11 +297,24 @@ header img {
    /* border: 1px dotted black;*/
     margin-left:auto;
     margin-right: auto;
-    margin-top: 1em;
+    margin-top: 5em;
 }
+
+/* Overskriften til bilde */
+.box-container-two h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 1em;
+  color: #063954;
+}
+
 #statbilde{
   margin-left: 4em;
 }
+
+/* margin top må økes */
 
 .attention-keeper-bottom {
     width: 100%;
