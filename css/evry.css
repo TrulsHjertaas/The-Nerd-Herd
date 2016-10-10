@@ -137,6 +137,10 @@ header img {
   font-weight: 400;
 }
 
+.bold2 {
+  font-weight: 700;
+}
+
 
 /*Call to Action-knapp*/
 
@@ -200,6 +204,7 @@ header img {
   padding-bottom: 1em;
   text-align: center;
   font-size: 1.5em;
+  text-transform: uppercase;
 }
 
 .capable-box {
@@ -215,6 +220,7 @@ header img {
   padding-bottom: 1em;
   text-align: center;
   font-size: 1.5em;
+  text-transform: uppercase;
 }
 
 .result-box {
@@ -229,6 +235,7 @@ header img {
   padding-bottom: 1em;
   text-align: center;
   font-size: 1.5em;
+  text-transform: uppercase;
 }
 
 /* Linjen som skiller infoboksene */
@@ -268,6 +275,7 @@ header img {
   padding-bottom: 1em;
   text-align: center;
   font-size: 1.5em;
+  text-transform: uppercase;
 }
 
 .service-box {
@@ -284,6 +292,7 @@ header img {
   padding-bottom: 1em;
   text-align: center;
   font-size: 1.5em;
+  text-transform: uppercase;
 }
 
 /* Her slutter infoboksene */
