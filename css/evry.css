@@ -303,7 +303,7 @@ header img {
 .box-container-two {
     height: 37.2em;
     width: 65em;
-   /* border: 1px dotted black;*/
+    /*border: 1px dotted black;*/
     margin-left:auto;
     margin-right: auto;
     margin-top: 5em;
@@ -320,9 +320,34 @@ header img {
 }
 
 #statbilde{
-  margin-left: 4em;
+  margin: auto;
+  width: 65em;
+  height: 33em;
 }
 
+.box-container-two-img {
+    height: 40em;
+    width: 65em;
+    /*border: 1px dotted black;*/
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 5em;
+}
+
+.box-container-two-img h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 1em;
+  color: #063954;
+}
+
+#kalender {
+  margin: auto;
+  width: 65em;
+  height: 35.8em;
+}
 /* margin top må økes */
 
 /* zak:fargeansvarlig:bytt til passende/riktig farger */
