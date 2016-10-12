@@ -519,8 +519,8 @@ textarea:focus, input:focus {
 footer{
   width:100%;
   left:0;
-  position:absolute;
-  margin-top: 5em;
+  position:;
+  /*margin-top: 5em;*/
   margin-bottom:0 auto;
   background-color: #063954;
   height:auto;
