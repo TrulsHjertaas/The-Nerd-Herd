@@ -431,10 +431,10 @@ header img {
 /* her er css'en til kontaktskjemaet */
 form {
   background:#D7E0E2;
-  margin: auto;
-  position: relative;
-  left:0em;
-  right:0em;
+  margin: 0 auto;
+  /*position: relative;*/
+  /*left:0em;
+  right:0em;*/
   width: 100%;
   height: 35em;
   text-decoration: none;
@@ -492,9 +492,8 @@ textarea {
   border: 1px solid #999;
   font-size: 0.92em;
 }
-input#kontakt {
+#kontakt {
   width: 10em;
-  /*position: absolute;*/
   /*left: 12em;*/
   margin-top: 1em;
   background: #D7E0E2;
@@ -506,8 +505,11 @@ input#kontakt {
   border: 0.18em solid #063954;
   text-transform: uppercase;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:1em;
 }
-input#kontakt:hover {
+#kontakt:hover {
   background: #fff;
   color: #063954;
 }
@@ -518,22 +520,21 @@ textarea:focus, input:focus {
 /* footer'ens farge, bredde, posisjon etc (som sakgt, ikke ferdig) */
 footer{
   width:100%;
-  left:0;
-  position:;
   /*margin-top: 5em;*/
-  margin-bottom:0 auto;
+  margin:0 auto;
   background-color: #063954;
-  height:auto;
+  height:8em;
   border-top:1px solid;
+  margin-bottom: 0em;
 }
 
 /* krediteringen i footer'ens posisjon og farge */
 .cred{
   color:white;
   text-align: center;
-  margin-top:1%;
-  padding-bottom: 0.5em;
+  padding: 0.5em;
   font-family: sans-serif;
+  margin: 0 auto;
 }
 .linker{
   text-decoration: none;
