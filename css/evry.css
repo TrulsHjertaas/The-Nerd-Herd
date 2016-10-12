@@ -451,7 +451,8 @@ form {
   text-align: center;
   padding-top: 0.3em;
   padding-bottom: 1.25em;
-  font-size: 1.9em;
+  font-size: 2em;
+  font-weight: 100;
   font-family: 'Source Sans Pro', sans-serif;
 }
 input {
