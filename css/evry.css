@@ -526,17 +526,62 @@ footer{
   height:8em;
   border-top:1px solid;
   margin-bottom: 0em;
+  padding-top: 2.2em;
 }
-
-/* krediteringen i footer'ens posisjon og farge */
+#altInnholdFooter{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  /*border:1px solid;*/
+  width: 41em;
+  margin-left: auto;
+}
+/* krediteringen i footer'ens posisjon og farge etc */
 .cred{
+  padding-top: 1.5em;
   color:white;
   text-align: center;
-  padding: 0.5em;
   font-family: sans-serif;
-  margin: 0 auto;
+  margin:auto;
+  /*border:1px solid;*/
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  font-size: 1.2em;
 }
+/* ikonene/linkene sin farge */
 .linker{
   text-decoration: none;
-  color:white;
+  color:#063954;
+}
+/* inni her ligger fb, tw og in */
+#sist{
+  color: #063954;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+/* inni her ligger både fb, tw, in OG sirklene de ligger inne i */
+#alleIkoner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  /*border:1px solid;*/
+  width:15em;
+  height: 4em;
+  margin-left: auto;
+}
+#facebookIkon{
+  margin-left:-16.6em;
+  margin-top: 1.3em;
+}
+#inIkon{
+  margin-top: 1.3em;
+  margin-left:0.2em;
+}
+#twitterIkon{
+  margin-right:4.65em;
+  margin-top: 1.35em;
 }
