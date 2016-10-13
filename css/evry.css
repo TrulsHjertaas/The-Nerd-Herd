@@ -523,10 +523,11 @@ footer{
   /*margin-top: 5em;*/
   margin:0 auto;
   background-color: #063954;
-  height:8em;
-  border-top:1px solid;
+  height:10em;
+  /*border-top:1px solid;*/
   margin-bottom: 0em;
-  padding-top: 2.2em;
+  position: absolute;
+  /*padding-top: 2.2em;*/
 }
 #altInnholdFooter{
   display: flex;
@@ -534,20 +535,24 @@ footer{
   flex-wrap: nowrap;
   justify-content: space-between;
   /*border:1px solid;*/
-  width: 41em;
-  margin-left: auto;
+  width: 65em;
+  height: 8em;
+  margin: 0 auto;
+  margin-top: 1em;
+  font-family: 'Source Sans Pro',sans-serif;
 }
 /* krediteringen i footer'ens posisjon og farge etc */
 .cred{
-  padding-top: 1.5em;
+  /*padding-top: 1.5em;*/
+  height: 8em;
+  width: 16em;
   color:white;
   text-align: center;
-  font-family: sans-serif;
-  margin:auto;
-  /*border:1px solid;*/
-  letter-spacing: 0.1em;
-  font-weight: 100;
-  font-size: 1.2em;
+  border:1px solid;
+  /*letter-spacing: 0.05em;*/
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 2em;
 }
 /* ikonene/linkene sin farge */
 .linker{
@@ -563,14 +568,15 @@ footer{
   justify-content: space-between;
 }
 /* inni her ligger både fb, tw, in OG sirklene de ligger inne i */
+/* Vi må finne en annen løsning på ikonene, svg osv er mye styr*/
 #alleIkoner{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  /*border:1px solid;*/
-  width:15em;
-  height: 4em;
+  border:1px solid white;
+  width:16em;
+  height: 8em;
   margin-left: auto;
 }
 #facebookIkon{
