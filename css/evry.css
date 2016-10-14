@@ -19,12 +19,18 @@ header {
     z-index: 200;
 }
 
+.header-container {
+  height: 4em;
+  width: 65em;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*Selvforklarende */
 
 header img {
     padding: 0.8em;
-    margin-left: 7em;
+    margin-left: -0.7em;
     height: 2.5em;
 }
 
@@ -41,7 +47,6 @@ header img {
     margin-top: 8em;
 }
 
-.headerbox {}
 
 #line-gradient {
     width: 50em;
@@ -184,6 +189,7 @@ header img {
     margin-right: auto;
     margin-top: 42em;
     font-family: 'Source Sans Pro', sans-serif;
+    color: #063A54;
 }
 
 
@@ -204,6 +210,7 @@ header img {
     width: 18em;
     line-height: 1.5em;
     /*border-bottom: 1px solid black;*/
+    color: #063A54;
 }
 
 .challenge-box h3 {
@@ -220,6 +227,7 @@ header img {
     text-align: center;
     line-height: 1.5em;
     /*border-bottom: 1px solid black;*/
+    color: #063A54;
 }
 
 .capable-box h3 {
@@ -235,6 +243,7 @@ header img {
     width: 18em;
     line-height: 1.5em;
     /*border-bottom: 1px solid black;*/
+    color: #063A54;
 }
 
 .result-box h3 {
@@ -279,6 +288,7 @@ header img {
     margin-left: 9em;
     text-align: center;
     line-height: 1.5em;
+    color: #063A54;
 }
 
 .message-box h3 {
@@ -296,6 +306,7 @@ header img {
     margin-right: 9em;
     text-align: center;
     line-height: 1.5em;
+    color: #063A54;
 }
 
 .service-box h3 {
@@ -330,7 +341,7 @@ header img {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: 1em;
-    color: #063954;
+    color: #00B5DE;
 }
 
 #statbilde {
@@ -354,7 +365,7 @@ header img {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: 1em;
-    color: #063954;
+    color: #00B5DE;
 }
 
 #kalender {
