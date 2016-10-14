@@ -94,7 +94,7 @@ header img {
     height: 25em;
     position: absolute;
     margin-top: 8em;
-    background-color: #063954;
+    background-color: #063A54;
     margin-left: auto;
     margin-right: auto;
     color: white;
@@ -146,24 +146,31 @@ header img {
 
 .cta-contact {
     border-radius: 1em;
-    background-color: #00B5DE;
+    background-color: white;
+    border: 0.1em solid #063A54;
     height: 2.5em;
     width: 18em;
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: #063A54;
 }
 
 .cta-contact h3 {
     padding: 0.4em;
+    color: #063A54;
+
 }
 
 .cta-contact a {
     text-decoration: none;
 }
 
+.cta-contact h3:hover {
+    color:white;
+}
+
 .cta-contact:hover {
-    background-color: #068D9D;
+    background-color: #063A54;
 }
 
 
@@ -392,6 +399,10 @@ header img {
 .boxHeadInfo{
   text-align: center;
 }
+
+#directlink {
+  list-style-type: none;
+}
 .boxHeadEvry{
   text-align: center;
 }
@@ -430,7 +441,7 @@ header img {
 /* zak:fargeansvarlig:bytt til passende/riktig farger eller send meg koder så kan jeg legge inn :--) */
 /* her er css'en til kontaktskjemaet */
 form {
-  background:#D7E0E2;
+  background:#edf1f4;
   margin: 0 auto;
   /*position: relative;*/
   /*left:0em;
