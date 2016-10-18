@@ -97,7 +97,7 @@ header img {
 .attention-keeper {
     width: 100%;
     height: 25em;
-    position: absolute;
+    /*position: absolute;*/
     margin-top: 8em;
     background-color: #063A54;
     margin-left: auto;
@@ -109,10 +109,11 @@ header img {
 .att-keep-box {
     width: 65em;
     height: 5em;
-    /*border: 0.1em dotted black;*/
+    /*border: 0.1em dotted white;*/
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
+    /*margin-top: 1em;*/
+    padding-top: 1em;
 }
 
 .att-keep-box2 {
@@ -187,7 +188,7 @@ header img {
     /*border: 1px dotted black;*/
     margin-left: auto;
     margin-right: auto;
-    margin-top: 42em;
+    margin-top: 8em;
     font-family: 'Source Sans Pro', sans-serif;
     color: #063A54;
 }
@@ -595,7 +596,7 @@ footer {
     height: 10em;
     /*border-top:1px solid;*/
     margin-bottom: 0em;
-    position: absolute;
+    /*position: absolute;*/
     /*padding-top: 2.2em;*/
 }
 
@@ -608,7 +609,7 @@ footer {
     width: 65em;
     height: 8em;
     margin: 0 auto;
-    margin-top: 1em;
+    /*margin-top: 1em;*/
     font-family: 'Source Sans Pro', sans-serif;
 }
 
