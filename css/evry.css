@@ -100,8 +100,8 @@ header img {
     /*position: absolute;*/
     margin-top: 8em;
     background-color: #063A54;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
 }
