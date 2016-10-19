@@ -1,4 +1,5 @@
 /* Denne er egnet for telefon, kun telefon! */
+/* Alle maks bredder er satt til 65em siden 100% ikke fungerte */
 @media screen and (max-device-width:480px)
 {
 
