@@ -1,4 +1,6 @@
-/*Dette er en CSS-reset, google it*/
+/* Denne er egnet for telefon, kun telefon! */
+@media screen and (max-device-width:480px)
+{
 
 * {
     margin: 0;
@@ -6,7 +8,7 @@
 }
 
 header {
-    width: 100%;
+    width: 65em;
     background-color: #FFFFFF;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     top: 0;
@@ -50,7 +52,7 @@ header img {
 }
 
 .attention-grabber h1 {
-    font-size: 80px;
+    font-size: 15em;
     font-family: 'Source Sans Pro', sans-serif;
     color: #00B5DE;
     padding: 0;
@@ -77,12 +79,13 @@ header img {
 }
 
 .attention-keeper {
-    width: 100%;
+    width: 65em;
     height: 25em;
-    margin-top: 8em;
+    margin-top: 20em;
     background-color: #063A54;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 47em;
 }
 
 .att-keep-box {
@@ -157,6 +160,7 @@ header img {
     margin-top: 8em;
     font-family: 'Source Sans Pro', sans-serif;
     color: #063A54;
+    border: 1px dotted black;
 }
 
 .upperbox {
@@ -317,7 +321,7 @@ header img {
 }
 
 .attention-keeper-bottom {
-    width: 100%;
+    width: 65em;
     height: 21em;
     margin-top: 8em;
     margin-bottom: 10em;
@@ -404,7 +408,7 @@ header img {
 form {
     background: #edf1f4;
     margin: 0 auto;
-    width: 100%;
+    width: 65em;
     height: 40em;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
@@ -495,7 +499,7 @@ textarea:focus, input:focus {
 }
 
 footer {
-    width: 100%;
+    width: 65em;
     margin: 0 auto;
     background-color: #063954;
     height: 10em;
@@ -572,4 +576,6 @@ footer {
 #twitterIkon {
     margin-right: 5.75em;
     margin-top: 1.25em;
+}
+
 }
