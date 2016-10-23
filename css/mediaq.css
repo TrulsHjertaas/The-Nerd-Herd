@@ -7,29 +7,19 @@
     padding: 0;
 }
 
-/*header {
-    width: 65em;
-    background-color: #FFFFFF;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-    top: 0;
-    left: 0;
-    position: fixed;
-    height: 4em;
-    z-index: 200;
+header {
+    display: none;
 }
 
 .header-container {
-  height: 4em;
-  width: 65em;
-  margin-left: auto;
-  margin-right: auto;
+  display: none;
 }
 
-header img {
-    padding: 0.8em;
-    margin-left: -0.7em;
-    height: 2.5em;
-}*/
+
+
+.logo {
+  display: none;
+}
 
 .attention-grabber {
     width: 65em;
